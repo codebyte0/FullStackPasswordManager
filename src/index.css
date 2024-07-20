@@ -1,0 +1,58 @@
+/* Tailwind imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+    .responsive-edit-icon, .responsive-delete-icon {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}
+
+/* Default sizes for larger screens */
+.responsive-edit-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.responsive-delete-icon {
+    width: 36px;
+    height: 36px;
+}
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+    .responsive-copy-icon {
+      width: 20px !important;
+      height: 16px !important;
+    }
+  }
+  
+  /* Default sizes for larger screens */
+  .responsive-copy-icon {
+    width: 28px;
+    height: 24px;
+  }
+  
+  /* App.css */
+html, body, #root {
+    height: 100%;
+  }
+  
+  .footer-container {
+    position: relative;
+    margin-top: auto;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  

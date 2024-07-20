@@ -1,0 +1,8 @@
+lordicon add button
+<a href="https://lordicon.com/">Icons by Lordicon.com</a>
+
+eyecross icon 
+<p>Eyecross icon by Hasyim Ari, licensed under CC BY 3.0. Available on <a href="https://www.iconfinder.com">Iconfinder</a>.</p>
+
+github icon 
+<p>Eyecross icon by Picons.me, licensed under CC BY 3.0. Available on <a href="https://www.iconfinder.com">Iconfinder</a>.</p>
